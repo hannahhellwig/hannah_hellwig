@@ -1,0 +1,135 @@
+
+h1 {
+  color: white;
+  background-color: ;
+  text-align: center;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  	font-size: 180px;
+    letter-spacing: 80px;
+    font-weight: lighter;
+  	font-style: normal;
+  	font-variant: normal;
+  	line-height: 226.4px;
+    border: 0px solid pink;
+  }
+
+
+
+  body {
+      background-color: white;
+      height: 100%;
+      background-position:
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+.background {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+form {
+  float:inherit;
+  width:500px;
+  align: center;
+  text-align: center;
+   margin: 0 auto;
+}
+
+input {
+        outline: none;
+    }
+
+input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #EDC2E2;
+        border-bottom: 2px solid #EDC2E2;
+        background-color: transparent;
+        color: none;
+
+    }
+input[type=text]:focus {
+    border: 3px solid none;
+
+}
+
+input:hover {
+  border: 2px solid #EDC2E2;
+  box-shadow: 0 10px 30px rgba(0,0,0,.14)
+}
+
+button {
+    float:center;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    color: #EDC2E2;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 250px;
+}
+button:hover {
+    background-color: #EDC2E2;
+    color: white;
+}
+
+#submission {
+  text-align: center;
+  }
+
+
+ul {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+  list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #EDC2E2;
+}
+
+li {
+  float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    background-color: #EDC2E2;
+    text-decoration: none;
+}
+.active {
+    color: #EDC2E2;
+    background-color: white;
+}
+
+.active:hover {
+  color: white;
+  background-color: #EDC2E2;
+}
+
+li a:hover {
+    background-color: white;
+    color:#EDC2E2;
+  }
